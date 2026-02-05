@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "public/** templates/**"
+    }
+  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index" }
   ]
