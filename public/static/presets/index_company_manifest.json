@@ -1,0 +1,26 @@
+{
+  "深圳证券信息有限公司": {
+    "指数公司名称": "深圳证券信息有限公司",
+    "指数公司简称": "深证信息",
+    "指数公司官网": "http://www.cnindex.com.cn/index.html",
+    "指数公司介绍": "presets/index_company/深圳证券信息有限公司_介绍.txt",
+    "指数公司编制方案": "presets/index_company/深圳证券信息有限公司_编制方案.txt",
+    "指数公司资质": "presets/index_company/深圳证券信息有限公司_资质.txt"
+  },
+  "中证指数有限公司": {
+    "指数公司名称": "中证指数有限公司",
+    "指数公司简称": "中证指数",
+    "指数公司官网": "https://www.csindex.com.cn",
+    "指数公司介绍": "presets/index_company/中证指数有限公司_介绍.txt",
+    "指数公司编制方案": "presets/index_company/中证指数有限公司_编制方案.txt",
+    "指数公司资质": "presets/index_company/中证指数有限公司_资质.txt"
+  },
+  "恒生指数有限公司": {
+    "指数公司名称": "恒生指数有限公司",
+    "指数公司简称": "恒生指数",
+    "指数公司官网": "www.hsi.com.hk",
+    "指数公司介绍": "presets/index_company/恒生指数有限公司_介绍.txt",
+    "指数公司编制方案": "presets/index_company/恒生指数有限公司_编制方案.txt",
+    "指数公司资质": "presets/index_company/恒生指数有限公司_资质.txt"
+  }
+}

@@ -1,0 +1,4 @@
+flask>=2.3
+python-docx>=1.1
+Pillow>=10.0
+vercel>=0.3.8

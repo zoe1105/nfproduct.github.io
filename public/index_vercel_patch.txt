@@ -1,0 +1,26 @@
+在 index.html 的 generate() 成功分支里，把下载链接处理改成“兼容绝对 URL”。
+
+把原来的：
+
+  const data = resp.data || {};
+  const zipUrl = data.zip_url;
+
+  const a = document.createElement("a");
+  a.href = zipUrl;
+  a.download = data.zip_name || "output.zip";
+
+  ...
+  "下载：" + (location.origin + zipUrl) + "\n\n" +
+
+改为：
+
+  const data = resp.data || {};
+  const zipUrl = data.zip_url;
+  const fullUrl = /^https?:\/\//i.test(zipUrl) ? zipUrl : (location.origin + zipUrl);
+
+  const a = document.createElement("a");
+  a.href = fullUrl;
+  a.download = data.zip_name || "output.zip";
+
+  ...
+  "下载：" + fullUrl + "\n\n" +
