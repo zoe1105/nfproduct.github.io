@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/index.py": {
+    "api/*.py": {
       "includeFiles": "public/** templates/**"
     }
   },
@@ -9,3 +9,4 @@
     { "source": "/api/(.*)", "destination": "/api/index" }
   ]
 }
+
